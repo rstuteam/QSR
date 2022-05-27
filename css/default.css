@@ -335,7 +335,7 @@ h6, .h6 {
 
 .site-footer::before {
   content: "";
-  background: linear-gradient(to top, var(--dark), transparent 200%)
+  background: linear-gradient(to top, var(--dark), transparent 200%);
   position: absolute;
   top: 0;
   right: 0;
@@ -354,16 +354,8 @@ h6, .h6 {
 	margin-top: 60px;
 }
 
-.copyright-text {
-  font-size: var(--menu-font-size);
-}
-
-.tel-link {
-  color: var(--p-color);
-}
-
 .site-footer a:hover {
-  color: var(--white-color);
+  color: var(--white);
 }
 
 .site-footer a {
