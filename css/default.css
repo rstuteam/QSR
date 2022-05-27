@@ -333,7 +333,7 @@ h6, .h6 {
   position: relative;
 }
 
-.site-footer:after {
+.site-footer::before {
   content: "";
   background: linear-gradient(to top, var(--dark), transparent 200%)
   position: absolute;
