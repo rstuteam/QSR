@@ -329,13 +329,13 @@ h6, .h6 {
   background-position: center;
   background-size: cover;
   padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-bottom: 5rem;
   position: relative;
 }
 
 .site-footer::before {
   content: "";
-  background: linear-gradient(to top, var(--dark), transparent 200%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0), transparent 150%);
   position: absolute;
   top: 0;
   right: 0;
