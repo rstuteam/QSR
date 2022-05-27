@@ -335,7 +335,7 @@ h6, .h6 {
 
 .site-footer::before {
   content: "";
-  background: linear-gradient(to bottom, rgb(0, 0, 0), transparent 150%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0), transparent 120%);
   position: absolute;
   top: 0;
   right: 0;
