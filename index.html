@@ -168,7 +168,7 @@
                 <div class="card-deck pricing-table">
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-title pt-3">Pre-release</h3>
+                            <h3 class="card-title pt-3"><i class="iconcolor fa-solid fa-code-pull-request"> </i>   Pre-release</h3>
                             <h2 class="card-title text-primary mb-0 pt-4">Beta/Alpha</h2>
                             <div class="text-muted font-weight-medium mt-2">for those who want to try Experimental version of Quick Screen Record</div>
                             <ul class="list-unstyled pricing-list">
@@ -185,7 +185,7 @@
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-title pt-3">Latest</h3>
+                            <h3 class="card-title pt-3"><i class="iconcolor fa-regular fa-circle-check"> </i>  Latest</h3>
                             <h2 class="card-title text-info mb-0 pt-4">Stable</h2>
                             <div class="text-muted font-weight-medium mt-2">for those who want to record with the original version of this software (Recommended)</div>
                             <ul class="list-unstyled pricing-list">
@@ -202,7 +202,7 @@
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="card-title pt-3">Terminal</h3>
+                            <h3 class="card-title pt-3"><i class="iconcolor fa-solid fa-code"> </i>  Terminal</h3>
                             <h2 class="card-title text-primary mb-0 pt-4">Dev-Mode</h2>
                             <div class="text-muted font-weight-medium mt-2">for those who want to record without consuming a lot of memory (special for programmers)</div>
                             <ul class="list-unstyled pricing-list">
@@ -241,7 +241,7 @@
         </div>
         <div class="row mt-5" id="repo">
             <div class="col-md-8 col-12 divider top-divider mx-auto pt-5 text-center">
-                <h3>Legacy QSR</h3>
+                <h3><i class="iconcolor fa-solid fa-folder-tree"> </i> | Legacy QSR</h3>
                 <p class="mb-4">Quick Screen Record has a big step on 2.9.11 Update, and a lot of Updates was added, and because of that, some hardware is not strong enough to run the new Update of 2.9.11, so if you want to try or want to still using the legacy version of QSR, just press the button below.</p>
                 <a href="https://github.com/rstusoftdev/QSR">
                 <button class="btn btn-primary d-inline-flex flex-row align-items-center">
@@ -309,7 +309,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
-                <h2 class="heading-black"><i>Nothing is hard and<br>make it easy.</i></h2>
+                <h2 class="heading-black"><i>Nothing is hard and make it easy.</i></h2>
                 <p class="text-muted lead">therealrstu<br>(The Developer of this software)</p>
             </div>
         </div>
@@ -335,7 +335,7 @@
         height: 89px;
       }</style>
 <!--footer-->
-<footer class="site-footer py6">
+<footer class="site-footer py6" id="site-footer">
             
     <div class="container">
         <div class="row">
@@ -359,7 +359,7 @@
                 </ul>
             </div>
             <div class="col-sm-2">
-                <h5>Software</h5>
+                <h5><i class="iconcolor fa-solid fa-gears"> </i> | Software</h5>
                 <ul class="list-unstyled">
                     <li><a href="#download" class="page-scroll">Download</a></li>
                     <li><a href="https://github.com/rstusoftdev/QSR">Repository</a></li>
@@ -367,13 +367,13 @@
                 </ul>
             </div>
             <div class="col-sm-2">
-                <h5>Info</h5>
+                <h5><i class="iconcolor fa-solid fa-circle-info"> </i> | Info</h5>
                 <ul class="list-unstyled">
                     <li><a href="#info" class="page-scroll">About</a></li>
                 </ul>
             </div>
             <div class="col-sm-2">
-                <h5>Support</h5>
+                <h5><i class="iconcolor fa-solid fa-envelope"> </i> | Support</h5>
                 <ul class="list-unstyled">
                     <li><a href="mailto:rstu.team@gmail.com">Contact</a></li>
                     <li><a href="#faq" class="page-scroll">FAQ</a></li>
@@ -393,16 +393,63 @@
     <i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
 
+<style>
+    .iconcolor {
+  color: #1de9b6;
+}
+</style>
+
 <!-- theme switcher (FOR DEMO ONLY - REMOVE FROM PRODUCTION)-->
 <div class="switcher-wrap">
     <div class="switcher-trigger">
-        <span class="fa-solid fa-circle-info"></span>
+        <span class="fa-solid fa-gear"></span>
     </div>
-    <div class="color-switcher">
-        <h6>About this Page</h6>
-        <p>if you want to make page like us, you must try the coolest template that we ever seen, <a href="https://www.designbombs.com/freebie/knight/"><b>Knight<b></a></p>
+    <div class="color-switcher ">
+        <h6><i class="iconcolor fa-solid fa-info"> </i> | About this Page</h6>
+        <p>if you want to make page like us, you must try the coolest template that we ever seen, <a href="https://www.designbombs.com/freebie/knight/"><b>Knight</b></a><br>
+        <h6><i class="iconcolor fa-solid fa-brush"> </i> | Footer Theme (beta)</h6>
+        <p><button onclick="evelyneye()" class="btn btn-primary d-inline-flex flex-row align-items-center">1<em class="ml-2" ></em></button>
+            <button onclick="smile()" class="btn btn-info d-inline-flex flex-row align-items-center">2<em class="ml-2" ></em></button> <br> <br>
+            <button onclick="rainwindow()" class="btn btn-primary d-inline-flex flex-row align-items-center">3<em class="ml-2" ></em></button>
+            <button onclick="classwindow()" class="btn btn-primary d-inline-flex flex-row align-items-center">4<em class="ml-2" ></em></button>
+            <br> <br>
+            <button onclick="code()" class="btn btn-primary d-inline-flex flex-row align-items-center">5<em class="ml-2" ></em></button>
+            <button onclick="classroom()" class="btn btn-primary d-inline-flex flex-row align-items-center">6<em class="ml-2" ></em></button>
+            <br> <br>
+            <button onclick="drain()" class="btn btn-primary d-inline-flex flex-row align-items-center">7<em class="ml-2" ></em></button>
+            <button onclick="lamp()" class="btn btn-primary d-inline-flex flex-row align-items-center">8<em class="ml-2" ></em></button><br>
+
+        </p>
     </div>
 </div>
+
+
+<script>
+    function evelyneye() {
+        document.getElementById('site-footer').style.backgroundImage = "url('./img/char2.png')";
+    }
+    function smile() {
+        document.getElementById('site-footer').style.backgroundImage = "url('./img/chars2.png')";
+    }
+    function rainwindow() {
+        document.getElementById('site-footer').style.backgroundImage = "url('./img/windowrain.png')";
+    }
+    function classwindow() {
+        document.getElementById('site-footer').style.backgroundImage = "url('./img/claasswip.png')";
+    }
+    function code() {
+        document.getElementById('site-footer').style.backgroundImage = "url('./img/code.png')";
+    }
+    function classroom() {
+        document.getElementById('site-footer').style.backgroundImage = "url('./img/class.png')";
+    }
+    function drain() {
+        document.getElementById('site-footer').style.backgroundImage = "url('./img/drain.png')";
+    }
+    function lamp() {
+        document.getElementById('site-footer').style.backgroundImage = "url('./img/lamp.png')";
+    }
+    </script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
