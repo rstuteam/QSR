@@ -1,4 +1,4 @@
-﻿
+
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
@@ -323,7 +323,7 @@ h6, .h6 {
   font-size: 1.2rem;
   font-weight: 500; }
 
-.site-footer {
+#site-footer {
   background-image: url('../img/chars2.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -332,10 +332,9 @@ h6, .h6 {
   padding-bottom: 5rem;
   position: relative;
 }
-
-.site-footer::before {
+#site-footer::before {
   content: "";
-  background: linear-gradient(to bottom, rgb(0, 0, 0), transparent 120%);
+  background: linear-gradient(to bottom, rgb(0, 0, 0), transparent 150%);
   position: absolute;
   top: 0;
   right: 0;
@@ -343,26 +342,22 @@ h6, .h6 {
   left: 0;
 }
 
-.site-footer .container {
+
+#site-footer .container 
+{
+  
   position: relative;
 }
 
-.tooplate-mt30 {
-	margin-top: 30px;
-}
-.tooplate-mt60 {
-	margin-top: 60px;
-}
-
-.site-footer a:hover {
+#site-footer a:hover {
   color: var(--white);
 }
 
-.site-footer a {
+#site-footer a {
   	color: #AAA;;
 }
 
-.site-footer p {
+#site-footer p {
 	color: #AAA;
 }
 
@@ -7846,14 +7841,15 @@ footer h5 {
 /*theme switcher*/
 .switcher-wrap {
   position: fixed;
-  top: 250px;
+  top: 90px;
   width: 250px;
   background: #263238;
   color: #CFD8DC;
   z-index: 100;
   padding: 20px;
   left: -250px;
-  transition: .3s; }
+  transition: .3s; 
+  border-radius: 0px 0px 7px 0px;}
   .switcher-wrap.active {
     left: 0; }
   .switcher-wrap ul {
@@ -7893,10 +7889,11 @@ footer h5 {
         align-items: center;
     -ms-flex-pack: center;
         justify-content: center;
-    border-radius: 0 2px 2px 0; }
+    border-radius: 0 5px 5px 0; }
     .switcher-wrap .switcher-trigger:hover {
       color: #1de9b6; }
-
+    
 @media screen and (max-width: 768px) {
-  .switcher-wrap {
-    display: none; } }
+      .switcher-wrap {
+        display: none; }  }
+    
